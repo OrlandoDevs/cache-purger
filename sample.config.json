@@ -1,0 +1,8 @@
+{
+  "cloudflare": {
+    "key": "cloudflare-key",
+    "email": "cloudflare-email",
+    "zone": "cloudflare-zone",
+    "endpoint": "cloudflare-endpoint"
+  }
+}

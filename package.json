@@ -1,0 +1,15 @@
+{
+  "name": "cache-be-gone",
+  "version": "0.0.1",
+  "description": "Purge cache from CloudFlare",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.7.0",
+    "es6-promise": "^3.0.2"
+  }
+}
