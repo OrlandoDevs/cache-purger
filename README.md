@@ -31,4 +31,4 @@ Before deploying this project you will need to:
 Be sure to take the following steps when zipping and uploading the project to AWS Lambda:
 
 - Include every file within this project in the zip file, including the `node_modules` directory
-- Be sure to have `app.js`, `node_modules`, etc in the **root** of your zip files. DO NOT ZIP the parent directory, as this will make things fail on Amazon (trust me a learned this the hard way).
+- Be sure to have `app.js`, `node_modules`, etc in the **root** of your zip files. DO NOT ZIP the parent directory, as this will make things fail on Amazon (trust me I learned this the hard way).
