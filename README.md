@@ -4,7 +4,7 @@ This project is run on AWS Lambda and is executed every time a pull request is m
 
 ## Configuring
 
-Before running this project you know need to create a `config.json` file within the root. Feel free to copy and paste the `sample.config.json` before proceeding. Every field within `config.json` you will need to fill out.
+Before running this project you need to create a `config.json` file within the root. Feel free to copy and paste the `sample.config.json` before proceeding. You'll need to fill out every field within `config.json`.
 
 Below is an example of what your `config.json` file should look like:
 
@@ -31,4 +31,4 @@ Before deploying this project you will need to:
 Be sure to take the following steps when zipping and uploading the project to AWS Lambda:
 
 - Include every file within this project in the zip file, including the `node_modules` directory
-- Be sure to have `app.js`, `node_modules`, etc in the **root** of your zip files. DO NOT ZIP the parent directory, as this will make things fail on Amazon (trust me a learned this the hard way).
+- Be sure to have `app.js`, `node_modules`, etc in the **root** of your zip files. DO NOT ZIP the parent directory, as this will make things fail on Amazon (trust me I learned this the hard way).
